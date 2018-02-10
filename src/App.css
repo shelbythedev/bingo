@@ -99,5 +99,5 @@ h3 {
   background: blue;
   opacity: 0.5;
   border-radius: 50%;
-  position: fixed;
+  position: absolute;
 }
