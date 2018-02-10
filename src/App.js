@@ -73,7 +73,7 @@ class Card extends App {
 
     return (
       <div className="row">
-        <div className="col-sm-8 col-md-8 col-lg-8">
+        <div className="col-sm-8 col-md-8 col-lg-8 offset-md-2 offset-lg-2">
           <div className="squareGrid">
             {items}
           </div>
