@@ -36,7 +36,16 @@ let data = [
   "Mentions person we've never heard of",
   'Talks about how busy he is',
   '"Freaking"',
-  '"I twirl my moustache"'
+  '"I twirl my moustache"',
+  '"Give an idiot at exit strategy"',
+  '"Sentiment Analysis"',
+  '"Low-Hanging Fruit"',
+  'Watson',
+  '"Coefficient"',
+  '"Loss Leader"',
+  '"Proof of Concept"',
+  '"Predictive Model"',
+  '"Success is Boredom"'
 ]
 
 let shuffleArray = (array) => {
