@@ -45,7 +45,13 @@ let data = [
   '"Loss Leader"',
   '"Proof of Concept"',
   '"Predictive Model"',
-  '"Success is Boredom"'
+  '"Success is Boredom"',
+  'Mentions Thierry Bingo',
+  '"Price Waterhouse"',
+  '"Blockchain"',
+  '"FinTech"',
+  '"Naïve Approach"',
+  '"Measurement of Success"'
 ]
 
 let shuffleArray = (array) => {
