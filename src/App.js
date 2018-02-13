@@ -51,7 +51,8 @@ let data = [
   '"Blockchain"',
   '"FinTech"',
   '"Naïve Approach"',
-  '"Measurement of Success"'
+  '"Measurement of Success"',
+  'Arbitrary Deadline'
 ]
 
 let shuffleArray = (array) => {
