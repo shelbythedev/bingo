@@ -19,7 +19,6 @@ let data = [
   '"Statement of Work"',
   '"Water Grill"',
   '"Iterative Process"',
-  '"Umwelt"',
   '"Accelerates Space and Time"',
   'IBM',
   'Mentions a former employee',
@@ -69,7 +68,8 @@ let data = [
   '"Development Standpoint"',
   '"Prescriptive"',
   'Happy Happy Joy Joy',
-  'Boom Boom'
+  'Boom Boom',
+  "Forgets someone's name"
 ]
 
 let shuffleArray = (array) => {
