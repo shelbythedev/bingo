@@ -64,7 +64,12 @@ let data = [
   '"ICO"',
   '"Strategic Approach"',
   'Mentions flying somewhere',
-  'Violates meeting time constraint'
+  'Violates meeting time constraint',
+  '"Yuge"',
+  '"Development Standpoint"',
+  '"Prescriptive"',
+  'Happy Happy Joy Joy',
+  'Boom Boom'
 ]
 
 let shuffleArray = (array) => {
