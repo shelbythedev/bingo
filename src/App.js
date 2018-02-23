@@ -52,7 +52,18 @@ let data = [
   '"FinTech"',
   '"Naïve Approach"',
   '"Measurement of Success"',
-  'Arbitrary Deadline'
+  'Makes arbitrary deadline',
+  'Mentions operations staff not in Dallas',
+  'Kaycee has to correct him',
+  'Some conference, summit, or forum event',
+  "Difference between [x] and Texas and/or Dallas",
+  '"WeWork"',
+  '"These kinds of clients"',
+  'Apologizes for being late',
+  '"Hey guys"',
+  '"ICO"',
+  '"Strategic Approach"',
+  'Mentions flying somewhere'
 ]
 
 let shuffleArray = (array) => {
