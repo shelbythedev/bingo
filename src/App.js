@@ -69,7 +69,8 @@ let data = [
   '"Prescriptive"',
   'Happy Happy Joy Joy',
   'Boom Boom',
-  "Forgets someone's name"
+  "Forgets someone's name",
+  "Announces that he's French"
 ]
 
 let shuffleArray = (array) => {
