@@ -91,8 +91,7 @@ let data = [
   'Story with mild relevance',
   'Announces that Cassie is out of town',
   'Idea of turning Thierry Bingo into a product',
-  'Bio Break',
-  'Calls Josh an Isotope'
+  'Bio Break'
 ]
 
 let shuffleArray = (array) => {
