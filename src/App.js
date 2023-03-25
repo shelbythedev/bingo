@@ -47,6 +47,14 @@ let data = [
   '"I didn`t do anything!"',
   'Tail light out',
   'Hoarder',
+  'Fentanyl',
+  'Trafficking',
+  'Consent to search',
+  'Dan: "We`ll keep an eye on that..."',
+  '"Civil matter"',
+  'Disgruntled neighbors',
+  'Intoxicated',
+  'Fleming St (Volusia)',
 ]
 
 let shuffleArray = (array) => {
