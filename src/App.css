@@ -23,7 +23,7 @@ body {
 .header h1 {
   font-family: sans-serif;
   font-size: 120px;
-  margin: 20px;
+  margin: auto 40px;
 }
 
 .header p {
