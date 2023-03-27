@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 
+import { start } from "./Confetti";
+
 let data = [
   'Crown Royal bag',
   'Danny Brown smells weed',
@@ -54,7 +56,33 @@ let data = [
   '"Civil matter"',
   'Disgruntled neighbors',
   'Intoxicated',
-  'Fleming St (Volusia)',
+  'Crowd scatters',
+  'Stolen car',
+  'Hoodie',
+  'Wreck',
+  '"Few minutes out"',
+  '"Got something here"',
+  '"Let`s get in a break"',
+  'Bicycle',
+  'Crying',
+  'Handcuffed',
+  'Reading rights (Miranda)',
+  'Standoff',
+  'Say no to [butt]crack',
+  'Resisting arrest',
+  'Uncooperative',
+  'Unresponsive',
+  'Evidence thrown out window',
+  'Felony stop',
+  'No ID',
+  '"Don`t reach"/"Quit reaching"',
+  'Knife found',
+  'Officer Sarcasm arrives',
+  'Not my drugs',
+  '"Anything to drink tonight?"',
+  'Field sobriety test',
+  '"Show [me/us] your hands"',
+  '"Get on the ground"'
 ]
 
 let shuffleArray = (array) => {
