@@ -100,10 +100,10 @@ let shuffleArray = (array) => {
 
 let toggle = () => {
   setState(state => {
-    const checked = { ...this.state.checked, [id]: !this.state.checked[id] }
+    const checked = { ...state.checked, [id]: !state.checked[id] }
     const won = isWon(checked)
     return {
-      ...this.state,
+      ...state,
       checked,
       won
     }
@@ -157,11 +157,11 @@ class Item extends Card {
     return <div 
                 className="square clickable" 
                 key={this.props.index}
-                isSet={!!this.state.checked[id]}
+                isSet={!!state.checked[id]}
                 onToggle={() => toggle(id)}
             >
-              <span className={"squareText " + (this.state.checked ? 'red':'')}>{this.props.item}</span>
-              <span className={this.state.checked ? 'checked':''}></span>
+              <span className={"squareText " + (state.checked ? 'red':'')}>{this.props.item}</span>
+              <span className={state.checked ? 'checked':''}></span>
             </div>
   }
 }
