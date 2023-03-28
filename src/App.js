@@ -155,13 +155,13 @@ class Item extends Card {
 
   render(){
     return <div 
-              className="square clickable" 
-              key={this.props.index}
-              isSet={!!state.checked[id]}
-              onToggle={() => toggle(id)}
+                className="square clickable" 
+                key={this.props.index}
+                isSet={!!this.state.checked[id]}
+                onToggle={() => toggle(id)}
             >
-              <span className={"squareText " + (state.checked ? 'red':'')}>{this.props.item}</span>
-              <span className={state.checked ? 'checked':''}></span>
+              <span className={"squareText " + (this.state.checked ? 'red':'')}>{this.props.item}</span>
+              <span className={this.state.checked ? 'checked':''}></span>
             </div>
   }
 }
