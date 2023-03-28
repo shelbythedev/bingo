@@ -98,6 +98,18 @@ let shuffleArray = (array) => {
   return array
 }
 
+let toggle = () => {
+  setState(state => {
+    const checked = { ...this.state.checked, [id]: !this.state.checked[id] }
+    const won = isWon(checked)
+    return {
+      ...this.state,
+      checked,
+      won
+    }
+  })
+}
+
 class App extends Component {
   render() {
     return (
@@ -109,7 +121,6 @@ class App extends Component {
     );
   }
 }
-
 
 class Card extends App {
   render(){
@@ -137,15 +148,20 @@ class Item extends Card {
     }
   }
 
-  checkItem(){
-    console.log('fired')
-    return this.setState(prevState => ({checked: !prevState.checked}))
-  }
+  // checkItem(){
+  //   console.log('fired')
+  //   return this.setState(prevState => ({checked: !prevState.checked}))
+  // }
 
   render(){
-    return <div className="square clickable" key={this.props.index} onClick={() => {this.checkItem()}}>
-              <span className={"squareText " + (this.state.checked ? 'red':'')}>{this.props.item}</span>
-              <span className={this.state.checked ? 'checked':''}></span>
+    return <div 
+              className="square clickable" 
+              key={this.props.index}
+              isSet={!!state.checked[id]}
+              onToggle={() => toggle(id)}
+            >
+              <span className={"squareText " + (state.checked ? 'red':'')}>{this.props.item}</span>
+              <span className={state.checked ? 'checked':''}></span>
             </div>
   }
 }
