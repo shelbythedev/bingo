@@ -8,7 +8,7 @@ let data = [
   'Danny Brown smells weed',
   'No shirt',
   'Hooptie',
-  'Dan Abrams is punny',
+  'Dan`s got jokes',
   'License plate lights out',
   'K9',
   'At gunpoint',
@@ -82,7 +82,18 @@ let data = [
   '"Anything to drink tonight?"',
   'Field sobriety test',
   '"Show [me/us] your hands"',
-  '"Get on the ground"'
+  '"Get on the ground"',
+  'Narcan',
+  'Chopper',
+  'Open container',
+  'Juvenile(s)',
+  'Socks & slides',
+  'Making entry',
+  '"We don`t catch the smart ones"',
+  'That one full house in Beech Grove',
+  'DUI/DWI/OWI/OVI',
+  'Intoxicated',
+  'Paraphernalia'
 ]
 
 let shuffleArray = (array) => {
